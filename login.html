@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html >
+    <html lang="pt-BR">
+        <head>
+           <meta charset="utf-8">
+           <meta http-equiv="X-UA-Compatible" content="IE=edge">
+           <meta name="viewport" content="width=device-width, initial-scale=1">
+           <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+           <title>Anjo Tech</title>
+           <meta name="keywords" content="">
+           <meta name="description" content="">
+           <meta name="author" content="">
+           <link rel="stylesheet" href="css/bootstrap.min.css">
+           <link rel="stylesheet" href="css/style.css">
+           <link rel="stylesheet" href="css/responsive.css">
+           <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+           <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+        </head>
+        <body>
+        <div id="contact" class="contact">
+        
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="titlepage">
+                        <h2> OLÁ <span class="blue"> ANJO </span></h2>
+                     </div>
+                     <div class="cont">
+                        <span> PRONTO  <br>
+                            PARA FAZER  <br> 
+                           O LOGIN?</span>
+                     </div>
+                  </div>
+                     <form action="perfilusuario.html" method="post" id="form_contato" class="main_form">
+                        <div class="row">
+                           <div class="col-sm-12">
+                        <div class="form-group">
+                              <label for="email">Email</label>
+                              <input type="email" name="email" placeholder="Seu Email" id="email" required class="form-control"/>
+                        </div>
+                        <div class="form-group">
+                          <label for="nome">Senha</label>
+                          <input type="password" name="nome" placeholder="Sua senha" id="senha" required minlength="5" class="form-control"/>
+                    </div>
+                        <div class="col-sm-12">
+                              <input class="read_more bg" type="submit" class="btn btn-success" value="Entrar"/>
+                        </div>
+                        <div>
+                        </div>
+                        
+                        </div>
+                     
+                     <div>
+                        <a>NÃO É MEMBRO ?</a>
+                        <A href="cadastro.html">CADASTRE-SE</A>
+                        <a>JÁ!!!</a>
+                     </div>
+                  </div>
+                 </form>
+          </div>
+   </div>
+</div>
+<script src="jquery-2.1.4.min.js"></script>
+<script src="jquery.validate.min.js"></script>
+<script>
+   $(function(){
+          $("#form_contato").validate();
+   });
+</script>
+                  </div>
+               </div>
+            </div>
+         </div>
+    </body>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</html>

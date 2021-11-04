@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <html lang="pt-BR">
+        <head>
+           <meta charset="utf-8">
+           <meta http-equiv="X-UA-Compatible" content="IE=edge">
+           <meta name="viewport" content="width=device-width, initial-scale=1">
+           <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+           <title>Anjo Tech</title>
+           <meta name="keywords" content="">
+           <meta name="description" content="">
+           <meta name="author" content="">
+           <link rel="stylesheet" href="css/bootstrap.min.css">
+           <link rel="stylesheet" href="css/style.css">
+           <link rel="stylesheet" href="css/responsive.css">
+           <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+           <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+           
+
+           
+        </head>
+        <body>
+        <div id="contact" class="contact">
+           
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="titlepage">
+                        <h2> VAMOS <span class="blue">CADASTRE-SE </span></h2>
+                     </div>
+                     <div class="cont">
+                        <span> AJUDE-NOS <br>
+                            NESSA LUTA <br>
+                            CONTRA O ABUSO!!!
+                        </span>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <form class="main_form" action="cadastroemergencia.html" method="get" id="form_contato" class="main_form">
+                        <div class="row">
+                           <div class="col-sm-12">
+                           <div class="form-group">
+                              
+                              <label for="nome">Seu Nome</label>
+                              <input type="text" name="nome" placeholder="Nome" id="nome" required minlength="5" class="form-control"/>
+                            </div>
+                           <div class="form-group">
+                           <label for="cpf"> Seu CPF</label>
+                           <input type="text" name="cpf" placeholder="Seu CPF" id="cef" required class="form-control"/> 
+                           </div>
+                           <div class="form-group">
+                              <label for="email">Seu Email</label>
+                              <input type="email" name="email" placeholder="Seu Email" id="email" required class="form-control"/>
+                        </div>
+                           <div class="form-group">
+                              <label for="nome">Sua Senha</label>
+                              <input type="password" name="nome" placeholder="Sua senha" id="senha" required minlength="5" class="form-control"/>
+                        </div>
+                           
+                           <div class="form-group">
+                              <label for="telefone">Telefone</label>
+                              <input type="telefone" name="telefone" placeholder="Seu Telefone" id="telefone" required class="form-control"/>
+                           </div>
+                           <label for="nome">Tipo de telefone</label>
+                                    <div class="col-sm-12">
+                                       
+                                    <label for="nome"></label>
+                                    <select>
+                                    <option value="celular">Celular</option>
+                                    <option value="telefone">Telefone Fixo</option>
+                                    </select>
+                                    </div>
+                                    Data de Nascimento
+                           <div class="col-sm-12">
+                              <td class="celula"> </td>
+                              <td>
+                                  <input type="date" required name="dataNascimento" />
+                               </td>
+                           </div>
+                           Gênero
+                           <div class="col-sm-12">
+                              <label class="mr-sm-2" for="inlineFormCustomSelect">  </label>
+                                 <label><input type="radio" name="genero" value="M" id="masc" checked /> Masculino</label>
+                                <label><input type="radio" name="genero" value="F" id="masc" /> Feminino</label>
+                                <label><input type="radio" name="genero" value="O" id="masc" /> Outro</label>
+                           </div>
+                                    <div class="col-sm-12">
+                                       <input class="read_more bg" type="submit" class="btn btn-success" value="Continuar"/>
+                                 </div>
+                          
+                        </div>
+                        </div>
+                        <div>
+                           <a>JÁ É MEMBRO?FAÇA</a>
+                           <A href="login.html">  LOGIN</A>
+                           <a>JÁ!!!</a>
+                        </div>
+                        <div >
+                        </div>
+                     </div>
+                     
+                     </form>
+                      
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+    </body>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</html>
